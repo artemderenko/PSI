@@ -20,10 +20,6 @@ wordcloud(frequent_terms$WORD, frequent_terms$FREQ)
 wordcloud(frequent_terms$WORD, frequent_terms$FREQ, min.freq = 4)
 # Ograniczenie liczby słów w chmurze poprzez określenie maksymalnej liczby słów
 wordcloud(frequent_terms$WORD, frequent_terms$FREQ, max.words = 5)
-# Dodanie różnych palet kolorystycznych
-wordcloud(frequent_terms$WORD, frequent_terms$FREQ, min.freq = 4, colors = brewer.pal(9,"Blues"))
-wordcloud(frequent_terms$WORD, frequent_terms$FREQ, min.freq = 4, colors = brewer.pal(9,"Reds"))
-wordcloud(frequent_terms$WORD, frequent_terms$FREQ, min.freq = 4, colors = brewer.pal(9,"Greens"))
 # Optymalizacja i dostosowanie wyników
 # Dodanie koloru do chmury słów dla lepszej wizualizacji
 # Dodanie koloru
